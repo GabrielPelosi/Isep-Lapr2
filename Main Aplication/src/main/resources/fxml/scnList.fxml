@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lapr.project.ui.ListUI">
+   <center>
+      <ListView fx:id="listaPedidos" prefHeight="304.0" prefWidth="440.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="58.0" prefWidth="371.0" spacing="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="butaoVoltar" defaultButton="true" mnemonicParsing="false" onAction="#clicarVoltar" text="Voltar">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin></Button>
+         </children>
+      </HBox>
+   </bottom>
+   <top>
+      <VBox alignment="CENTER" prefHeight="75.0" prefWidth="517.0" spacing="15.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fx:id="txtTitle" strokeType="OUTSIDE" strokeWidth="0.0" text="O QUE ESTOU A OBSERVAR" />
+         </children>
+      </VBox>
+   </top>
+</BorderPane>

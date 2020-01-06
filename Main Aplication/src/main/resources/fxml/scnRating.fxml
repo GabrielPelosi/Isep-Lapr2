@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lapr.project.ui.RatingUI">
+   <left>
+      <VBox alignment="CENTER" prefHeight="255.0" prefWidth="315.0" spacing="70.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rating (0-5):">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox alignment="CENTER_LEFT" prefHeight="366.0" prefWidth="352.0" spacing="80.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="txtRating" alignment="TOP_RIGHT" />
+         </children>
+         <padding>
+            <Insets right="200.0" />
+         </padding>
+      </VBox>
+   </center>
+   <bottom>
+      <VBox alignment="CENTER" prefHeight="99.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+               <children>
+                  <Button fx:id="btnConfirm" mnemonicParsing="false" onAction="#clickConfirmAction" text="Confirm" />
+                  <Button fx:id="btnGoBack" alignment="CENTER" mnemonicParsing="false" onAction="#clickGoBackAction" text="Go Back" />
+                  <Button fx:id="btnClean" mnemonicParsing="false" onAction="#clickCleanAction" text="Clean" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+   <top>
+      <VBox alignment="TOP_CENTER" prefHeight="146.0" prefWidth="600.0" spacing="40.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rating Service Providers" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold Italic" size="25.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Service Provider">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Text>
+            <Text fx:id="txtServiceProvider" strokeType="OUTSIDE" strokeWidth="0.0" text="txtServiceProvider">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>

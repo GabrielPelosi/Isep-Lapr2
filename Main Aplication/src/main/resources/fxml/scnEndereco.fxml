@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lapr.project.ui.AddressUI">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="10.0" prefWidth="86.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="567.0" minWidth="10.0" prefWidth="288.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="82.0" minHeight="10.0" prefHeight="70.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="128.0" minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="253.0" minHeight="10.0" prefHeight="70.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="253.0" minHeight="0.0" prefHeight="80.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Address" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Postal Code" GridPane.rowIndex="1" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Locality" GridPane.rowIndex="2" />
+      <Button fx:id="butaoConfirmar" defaultButton="true" mnemonicParsing="false" onAction="#clicarConfirmar" text="Confirm" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <TextField fx:id="fieldCP" maxWidth="-Infinity" prefWidth="200.0" promptText="0000-000" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextField fx:id="fieldMorada" maxWidth="-Infinity" prefWidth="200.0" promptText="Address" GridPane.columnIndex="1" />
+      <TextField fx:id="fieldLocal" maxWidth="-Infinity" prefWidth="200.0" promptText="Locality" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+   </children>
+   <padding>
+      <Insets left="20.0" />
+   </padding>
+</GridPane>

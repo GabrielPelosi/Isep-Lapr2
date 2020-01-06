@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="657.0" prefWidth="829.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lapr.project.ui.RegisterServiceProviderUI">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="249.0" minWidth="10.0" prefWidth="182.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="379.0" minWidth="10.0" prefWidth="212.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="311.0" minWidth="10.0" prefWidth="200.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="311.0" minWidth="10.0" prefWidth="235.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints maxHeight="208.0" minHeight="10.0" prefHeight="44.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="208.0" minHeight="10.0" prefHeight="73.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="221.0" minHeight="10.0" prefHeight="46.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="149.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="149.0" minHeight="0.0" prefHeight="35.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="149.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="149.0" minHeight="0.0" prefHeight="47.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="149.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="149.0" minHeight="10.0" prefHeight="93.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="149.0" minHeight="10.0" prefHeight="105.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="149.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label prefHeight="30.0" prefWidth="38.0" text="NIF:" GridPane.rowIndex="2">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="60.0" />
+         </GridPane.margin>
+      </Label>
+      <TextField fx:id="textNif" prefHeight="25.0" prefWidth="219.0" promptText="(eg: 123456789)" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button fx:id="buttNIF" mnemonicParsing="false" onAction="#loadNIF" prefHeight="25.0" prefWidth="110.0" text="Load NIF" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+      </Button>
+      <Label text="Typing number:" GridPane.rowIndex="3">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="Full Name:" GridPane.rowIndex="4">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="35.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="instutional email:" GridPane.rowIndex="6">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="7.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="Abraviated Name:" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="15.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="loadAll" disable="true" mnemonicParsing="false" onAction="#clickConfirmButton" prefHeight="25.0" prefWidth="101.0" text="Confirm" GridPane.rowIndex="10">
+         <GridPane.margin>
+            <Insets left="40.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="buttonExit" mnemonicParsing="false" onAction="#exitRegister" prefHeight="25.0" prefWidth="98.0" text="Exit">
+         <GridPane.margin>
+            <Insets left="40.0" />
+         </GridPane.margin>
+      </Button>
+      <TextField fx:id="textTyping" disable="true" promptText="(eg: 12345)" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <TextField fx:id="textFullName" disable="true" promptText="(eg: Gabriel Guterres Pelosi)" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <TextField fx:id="textAbvName" disable="true" promptText="(eg:  Gabriel)" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <TextField fx:id="textInstEmail" disable="true" promptText="(eg: service@gpsd.pt)" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Register Service Provider" GridPane.columnIndex="1">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="20.0" />
+         </GridPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Introduce the NIF first" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="10.0" left="25.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Category" GridPane.rowIndex="8">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="40.0" />
+         </GridPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Geographic Area" GridPane.rowIndex="9">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="20.0" />
+         </GridPane.margin>
+      </Text>
+      <Button fx:id="buttonArea" mnemonicParsing="false" onAction="#loadArea" prefHeight="25.0" prefWidth="88.0" text="Load Area" visible="false" GridPane.columnIndex="3" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="ButtonCate" mnemonicParsing="false" onAction="#loadCat" prefHeight="25.0" prefWidth="97.0" text="Load Category" visible="false" GridPane.columnIndex="3" GridPane.rowIndex="8">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets bottom="30.0" left="10.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="bConfirm" disable="true" mnemonicParsing="false" onAction="#clickLoadInformationButton" text="Load information" GridPane.columnIndex="1" GridPane.rowIndex="10">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Button>
+      <ComboBox fx:id="comboCat" disable="true" prefHeight="25.0" prefWidth="162.0" GridPane.columnIndex="1" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="20.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <ListView fx:id="listViewCat" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+      <ListView fx:id="listViewArea" maxWidth="1.7976931348623157E308" prefHeight="87.0" prefWidth="209.0" GridPane.columnIndex="2" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets top="20.0" />
+         </GridPane.margin>
+      </ListView>
+      <Button fx:id="bDeletCat" mnemonicParsing="false" onAction="#clickDeletCat" text="Delet Category" visible="false" GridPane.columnIndex="3" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="11.0" top="50.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="bDeletArea" mnemonicParsing="false" onAction="#clickDeletArea" text="Delet Area" visible="false" GridPane.columnIndex="3" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="20.0" top="70.0" />
+         </GridPane.margin>
+      </Button>
+      <Text fx:id="textWarningMoreCatArea" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="175.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="40.0" left="10.0" />
+         </GridPane.margin>
+      </Text>
+      <Button fx:id="bChangeInfo" mnemonicParsing="false" onAction="#clickChangeInfo" prefHeight="25.0" prefWidth="132.0" text="Change Information" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="10">
+         <GridPane.margin>
+            <Insets left="-75.0" />
+         </GridPane.margin>
+      </Button>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Postal Adress:" wrappingWidth="96.13671875" GridPane.rowIndex="7">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+      </Text>
+      <TextField fx:id="textAdress" maxWidth="-Infinity" prefHeight="25.0" prefWidth="98.0" promptText="Adress" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+      <TextField fx:id="textLocality" maxWidth="-Infinity" prefHeight="25.0" prefWidth="101.0" promptText="locality" GridPane.columnIndex="1" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets left="110.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="textPostal" maxWidth="-Infinity" prefHeight="25.0" prefWidth="63.0" promptText="postal" GridPane.columnIndex="2" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="textCode" maxWidth="-Infinity" prefHeight="25.0" prefWidth="71.0" promptText="code" GridPane.columnIndex="2" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets left="80.0" />
+         </GridPane.margin>
+      </TextField>
+      <ComboBox fx:id="cArea" disable="true" prefHeight="25.0" prefWidth="163.0" GridPane.columnIndex="1" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="20.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <Text fx:id="textHab" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="229.6708984375" GridPane.columnIndex="3" GridPane.rowIndex="3">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="3.0" />
+         </GridPane.margin>
+      </Text>
+      <Text fx:id="textInfoHabi" strokeType="OUTSIDE" strokeWidth="0.0" text="Professional and Academic Habilitation of the Application" visible="false" wrappingWidth="148.13671875" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Text>
+      <ListView fx:id="listViewNifApp" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" prefHeight="75.0" prefWidth="206.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets right="2.0" />
+         </GridPane.margin>
+      </ListView>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nifs of applications saved in the system" GridPane.columnIndex="3">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="-35.0" />
+         </GridPane.margin>
+      </Text>
+   </children>
+</GridPane>

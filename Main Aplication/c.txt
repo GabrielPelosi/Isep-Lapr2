@@ -1,0 +1,9 @@
+(nome, NIF, numertoTel, email, pass, local, codPostal, localidade)
+
+Joao; 123456799; 997654321; joao@gmail.com; 123456; Isep; 4000-007; Porto
+
+Lopes da Silva; 123456799; 997654321; c; c; Isep; 4000-008; Porto
+
+Maria; 111111111; 111111112; maria@gmail.com; 123456; Pingo Doce; 4000-009; Vila Nova de Gaia; Continente; 4000-011; Marco
+
+Quim; 123123123; 919191919; barreiros@gmail.com; 123456; Garagem; 4000-010; Vizinha; Oops; enganeime

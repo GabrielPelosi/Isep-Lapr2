@@ -1,0 +1,6 @@
+
+(nMecanografico, nomeC, nomeA, email, strPwd, endP, strCodigo, s4234-340trDescricao ,GeographicArea )
+1180017;Gabriel Pelosi; Gabriel; 3;3; rua almirante carvalho;Porto;4000-009; 33/dasdas/ Porto_4000-009_30_100.9
+
+
+

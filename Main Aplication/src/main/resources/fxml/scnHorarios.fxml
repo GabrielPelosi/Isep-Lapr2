@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lapr.project.ui.ListaHorariosUI">
+   <center>
+      <ListView fx:id="listaHorarios" prefHeight="267.0" prefWidth="448.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="58.0" prefWidth="371.0" spacing="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="butaoApagar" cancelButton="true" mnemonicParsing="false" onAction="#clicarApagar" text="Apagar">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin></Button>
+            <Button fx:id="butaoVoltar" defaultButton="true" mnemonicParsing="false" onAction="#clicarVoltar" text="Voltar">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin></Button>
+         </children>
+      </HBox>
+   </bottom>
+   <top>
+      <VBox alignment="CENTER" prefHeight="75.0" prefWidth="517.0" spacing="15.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Horarios" />
+            <HBox alignment="CENTER" prefHeight="34.0" prefWidth="517.0" spacing="5.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Data" wrappingWidth="24.69140625" />
+                  <DatePicker fx:id="butaoData" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Horas">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField fx:id="butaoHora" alignment="CENTER" maxWidth="-Infinity" prefHeight="25.0" prefWidth="30.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="h :">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Text>
+                  <TextField fx:id="butaoMinuto" maxWidth="-Infinity" prefHeight="25.0" prefWidth="30.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="m">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Text>
+                  <Button fx:id="butaoAdicionar" mnemonicParsing="false" onAction="#clicarAdicionar" text="Adicionar" />
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>

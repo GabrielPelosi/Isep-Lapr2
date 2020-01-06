@@ -1,0 +1,5 @@
+(nome, codigoPostal, raio, valor)
+
+Porto ;4000-007; 200 ; 5
+Vila Nova de Gaia ;4000-008; 100 ;10
+Gondomar ;4000-009; 200 ;6

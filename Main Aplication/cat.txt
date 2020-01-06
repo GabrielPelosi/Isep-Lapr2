@@ -1,0 +1,5 @@
+(catId, descricao)
+
+LMP; Limpezas
+TRP; Transportes
+Codigo; Descricao

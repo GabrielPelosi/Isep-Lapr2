@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lapr.project.ui.PostalAddressesUI">
+   <top>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Postal Addresses" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+   </top>
+   <bottom>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#delete" prefHeight="31.0" prefWidth="85.0" text="Delete">
+               <HBox.margin>
+                  <Insets left="100.0" top="50.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#clean" prefHeight="31.0" prefWidth="80.0" text="Clean">
+               <HBox.margin>
+                  <Insets left="100.0" top="50.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="finish" mnemonicParsing="false" onAction="#finish" prefHeight="31.0" prefWidth="120.0" text="Finish">
+               <HBox.margin>
+                  <Insets left="100.0" right="50.0" top="50.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+   <left>
+      <VBox prefHeight="260.0" prefWidth="602.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="94.0" prefWidth="600.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="New address:">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField fx:id="address" promptText="address">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="locality" promptText="locality">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="postal" prefHeight="31.0" prefWidth="114.0" promptText="postal" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                  <TextField fx:id="code" prefHeight="31.0" prefWidth="119.0" promptText="code">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Button mnemonicParsing="false" onAction="#add" prefHeight="31.0" prefWidth="99.0" text="Add">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <ListView fx:id="postalAddresses" prefHeight="262.0" prefWidth="600.0" />
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

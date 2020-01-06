@@ -1,0 +1,14 @@
+(servId, descBreve, descCompleta, preco, cod)
+
+
+Casas; Limpeza de Casas; Limpamos a sua casa, incluindo tapetes, sofas, frigorificos;40.00;LMP
+
+Carros; Limpeza de Carros; Lavamos o seu carro, por dentro e por fora, estodos, vidros;20.00;LMP;2
+
+Pequenos;Transportes até 5 pessoas ;Transportes até 5 pessoas;15.00; TRP
+
+Grande; Transportes até 25 pessoas ;Transportes até 25 pessoas;60.00;TRP
+
+Limo; Transportes de Limusine; Transporte pela cidade com limusines; 120.00; TRP;3
+
+Identificador Unico;Descricao Breve;Descricao Completa;2.00;Codigo

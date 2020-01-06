@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lapr.project.ui.HumanResourcesOfficerUI">
+   <center>
+      <VBox alignment="CENTER" prefHeight="280.0" prefWidth="425.0" spacing="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Human Resources Officer MENU" wrappingWidth="176.375" />
+            <Label fx:id="HrcInfo" prefHeight="39.0" prefWidth="158.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="30.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+            <Button fx:id="buttonEvaluate" mnemonicParsing="false" onAction="#clickEvaluateAction" prefHeight="25.0" prefWidth="200.0" text="Evaluate Service Provider">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#clickRegisterServiceProvider" prefHeight="25.0" prefWidth="200.0" text="RegisterServiceProvider">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="bLogOut" mnemonicParsing="false" onAction="#clickLogOut" prefHeight="25.0" prefWidth="200.0" text="Log-out">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lapr.project.ui.DecidePeriodUI">
+   <top>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Decide on proposed period of service" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Text>
+   </top>
+   <left>
+      <VBox alignment="CENTER" prefHeight="265.0" prefWidth="591.0" spacing="70.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fx:id="txtPeriodOfService" strokeType="OUTSIDE" strokeWidth="0.0" text="txtPeriodOfService" textAlignment="CENTER" wrappingWidth="540.91015625">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+   </left>
+   <bottom>
+      <VBox alignment="CENTER" prefHeight="99.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fx:id="txtSuccessMessage" strokeType="OUTSIDE" strokeWidth="0.0" text="txtSuccessMessage">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+               <children>
+                  <Button fx:id="btnAccept" mnemonicParsing="false" onAction="#clickAcceptAction" text="Accept" />
+                  <Button fx:id="btnDoNotAccept" mnemonicParsing="false" onAction="#clickDoNotAcceptAction" text="Do not accept" />
+                  <Button fx:id="btnGoBack" alignment="CENTER" mnemonicParsing="false" onAction="#clickGoBackAction" text="Go Back" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>

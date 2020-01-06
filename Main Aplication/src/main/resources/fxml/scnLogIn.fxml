@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lapr.project.ui.LogInUI">
+   <center>
+      <VBox alignment="CENTER" onKeyPressed="#clicarEnter" prefHeight="200.0" prefWidth="100.0" spacing="5.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LOG-IN">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin></Text>
+            <TextField fx:id="fieldEmail" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="130.0" promptText="email" />
+            <PasswordField fx:id="fieldPass" maxWidth="-Infinity" prefWidth="130.0" promptText="password" />
+            <Button maxWidth="130.0" mnemonicParsing="false" onAction="#clicarLogIn" prefHeight="25.0" prefWidth="130.0" text="Log In" />
+            <HBox alignment="CENTER" prefHeight="48.0" prefWidth="600.0" spacing="5.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#registerAsCustomer" text="Register" />
+                  <Button mnemonicParsing="false" onAction="#butRegisterSP" prefHeight="43.0" prefWidth="108.0" text="Register as Service Provider" textAlignment="CENTER" wrapText="true">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </HBox>
+            <Button fx:id="butaoSair" maxWidth="130.0" mnemonicParsing="false" onAction="#clicarSair" prefHeight="25.0" prefWidth="130.0" text="EXIT" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

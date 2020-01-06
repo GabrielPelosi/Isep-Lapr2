@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="704.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lapr.project.ui.RegisterServiceProviderConfirmUI">
+   <bottom>
+      <HBox prefHeight="44.0" prefWidth="704.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="bConfirm" mnemonicParsing="false" onAction="#clickConfirm" text="Confirm">
+               <HBox.margin>
+                  <Insets left="220.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="bCancel" mnemonicParsing="false" onAction="#clickCancel" text="Cancel">
+               <HBox.margin>
+                  <Insets left="40.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="bReturn" mnemonicParsing="false" onAction="#clickReturn" text="Return">
+               <HBox.margin>
+                  <Insets left="40.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <TextArea fx:id="infoSP" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
