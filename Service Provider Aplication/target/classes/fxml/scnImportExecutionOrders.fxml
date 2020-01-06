@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="436.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lapr.project.ui.ImportExecutionOrdersUI">
+   <children>
+      <Label layoutX="41.0" layoutY="118.0" prefHeight="34.0" prefWidth="88.0" text="File name">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textNameFile" layoutX="155.0" layoutY="123.0" promptText="(eg: Orders.csv)" />
+      <Text layoutX="28.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type the name of the file(CSV, XML, EXCEL)">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="buttonImportFile" layoutX="129.0" layoutY="218.0" mnemonicParsing="false" onAction="#clickButtonImportFile" text="Import File" />
+      <Button fx:id="buttonCancel" layoutX="252.0" layoutY="218.0" mnemonicParsing="false" onAction="#clickButtonCancel" text="Back" />
+   </children>
+</AnchorPane>

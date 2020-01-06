@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lapr.project.ui.AnalyzeExecutionOrdersUI">
+   <bottom>
+      <Button fx:id="back" mnemonicParsing="false" onAction="#back" text="Back" textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="15.0" top="5.0" />
+         </BorderPane.margin>
+      </Button>
+   </bottom>
+   <center>
+      <ListView fx:id="list" prefHeight="259.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets top="10.0" />
+         </BorderPane.margin></ListView>
+   </center>
+   <top>
+      <HBox prefHeight="48.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Analyze Execution Orders By:">
+               <font>
+                  <Font size="27.0" />
+               </font></Text>
+            <ComboBox fx:id="combo" onAction="#vomboB" prefWidth="150.0">
+               <HBox.margin>
+                  <Insets top="5.0" />
+               </HBox.margin></ComboBox>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

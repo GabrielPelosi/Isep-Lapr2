@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lapr.project.ui.MenuUI">
+   <center>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="241.0" prefWidth="204.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="buttonImport" mnemonicParsing="false" onAction="#clickButtonImport" prefHeight="31.0" prefWidth="205.0" text="Import Execution Orders">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#analyze" prefHeight="31.0" prefWidth="210.0" text="Analyze Execution Orders">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="buttonTimeline" mnemonicParsing="false" onAction="#clickAnalyzeTimeline" prefHeight="32.0" prefWidth="204.0" text="Analyze Client Timeline">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Service Provider Application" wrappingWidth="304.13671875" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </top>
+</BorderPane>
