@@ -1,6 +1,6 @@
 # Use Case Diagram
 
-![DUC_App.png](https://bitbucket.org/repo/A6gE67j/images/2449614521-DUC_App.png)
+![DUC_App.png](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/DUC_App.png)
 
 # Use Cases
 | UC  | Description                                                               |                   
