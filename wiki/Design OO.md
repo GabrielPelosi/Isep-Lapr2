@@ -2,7 +2,7 @@
 
 | UC  | Description                                                               |                   
 |:----|:------------------------------------------------------------------------|
-| UC1 | [Register as Customer](Design OO/UC1_Register as Customer)   |
+| UC1 | [Register as Customer](Design OO/UC1_Register as Customer.md)   |
 | UC2 | [Submit Application to Service Provider](Design OO/UC2_Submit Application to Service Provider)  |
 | UC3 | [Specify Category (Service)](Design OO/UC3_Specify Category (Service))|
 | UC4 | [Specify Service](Design OO/UC4_Specify Service)|
