@@ -15,7 +15,7 @@
 | UC8 | [Register Service Provider](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC8_Register%20Service%20Provider.md)|
 | UC9 | [Indicate Daily Availability of Services](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC9_Indicate%20Daily%20Availability%20of%20Services.md)|
 | UC10 | [Affect providers of service requests](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC10_Affect%20providers%20of%20service%20requests.md)|
-| UC11 | [Decide on proposed period of service](Use Cases/UC11_Decide on proposed period of service)|
+| UC11 | [Decide on proposed period of service](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC11_Decide%20on%20proposed%20period%20of%20service.md)|
 | UC12 | [Query service execution orders](Use Cases/UC12_Query service execution orders)|
 | UC13 | [Complete Service](Use Cases/UC13_Complete Service)|
 | UC14 | [Rating Service Providers](Use Cases/UC14_Rating Service Providers)|
