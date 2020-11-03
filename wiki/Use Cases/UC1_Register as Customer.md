@@ -5,7 +5,7 @@
 The unregistered user starts the registration as a client. The system requests the necessary data (i.e. the person's full name, NIF, telephone contact, email, password, and at least one postal address). The unregistered user enters the requested data. The system validates and displays the data, asking you to confirm them. The unregistered user confirms. The system records the customer and registered user data and informs the unregistered user of the success of the operation.
 
 ## SSD
-![SSD_UC1.png](https://bitbucket.org/repo/A6gE67j/images/1618208870-SSD_UC1.png)
+![SSD_UC1.png](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/SSD_UC1.png)
 
 
 ## Full Format
