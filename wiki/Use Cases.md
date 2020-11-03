@@ -9,7 +9,7 @@
 | UC2 | [Submit Application to Service Provider](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC2_Submit%20Application%20to%20Service%20Provider.md)  |
 | UC3 | [Specify Category (Service)](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC3_Specify%20Category%20(Service).md)|
 | UC4 | [Specify Service](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC4_Specify%20Service.md)|
-| UC5 | [Specify Geographic Area](Use Cases/UC5_Specify Geographic Area)|
+| UC5 | [Specify Geographic Area](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC5_Specify%20Geographic%20Area.md)|
 | UC6 | [Order Service Provision](Use Cases/UC6_Order Service Provision)|
 | UC7 | [Associate Postal Address with Customer](Use Cases/UC7_Associate Postal Address with Customer)|
 | UC8 | [Register Service Provider](Use Cases/UC8_Register Service Provider)|
