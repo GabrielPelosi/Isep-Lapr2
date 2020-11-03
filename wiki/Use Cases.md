@@ -6,8 +6,8 @@
 | UC  | Description                                                               |                   
 |:----|:------------------------------------------------------------------------|
 | UC1 | [Register as Customer](Use Cases/UC1_Register as Customer)   |
-| UC2 | [Submit Application to Service Provider](Use Cases/UC2_Submit Application to Service Provider)  |
-| UC3 | [Specify Category (Service)](Use Cases/UC3_Specify Category (Service))|
+| UC2 | [Submit Application to Service Provider](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC2_Submit%20Application%20to%20Service%20Provider.md)  |
+| UC3 | [Specify Category (Service)](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC3_Specify%20Category%20(Service).md)|
 | UC4 | [Specify Service](Use Cases/UC4_Specify Service)|
 | UC5 | [Specify Geographic Area](Use Cases/UC5_Specify Geographic Area)|
 | UC6 | [Order Service Provision](Use Cases/UC6_Order Service Provision)|
