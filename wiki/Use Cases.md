@@ -14,7 +14,7 @@
 | UC7 | [Associate Postal Address with Customer](Use Cases/UC7_Associate Postal Address with Customer)|
 | UC8 | [Register Service Provider](Use Cases/UC8_Register Service Provider)|
 | UC9 | [Indicate Daily Availability of Services](Use Cases/UC9_Indicate Daily Availability of Services)|
-| UC10 | [Affect providers of service requests](Use Cases/UC10_Affect providers of service requests)|
+| UC10 | [Affect providers of service requests](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC10_Affect%20providers%20of%20service%20requests.md)|
 | UC11 | [Decide on proposed period of service](Use Cases/UC11_Decide on proposed period of service)|
 | UC12 | [Query service execution orders](Use Cases/UC12_Query service execution orders)|
 | UC13 | [Complete Service](Use Cases/UC13_Complete Service)|
