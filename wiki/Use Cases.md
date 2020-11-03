@@ -10,9 +10,9 @@
 | UC3 | [Specify Category (Service)](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC3_Specify%20Category%20(Service).md)|
 | UC4 | [Specify Service](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC4_Specify%20Service.md)|
 | UC5 | [Specify Geographic Area](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC5_Specify%20Geographic%20Area.md)|
-| UC6 | [Order Service Provision](Use Cases/UC6_Order Service Provision)|
-| UC7 | [Associate Postal Address with Customer](Use Cases/UC7_Associate Postal Address with Customer)|
-| UC8 | [Register Service Provider](Use Cases/UC8_Register Service Provider)|
+| UC6 | [Order Service Provision](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC6_Order%20Service%20Provision.md)|
+| UC7 | [Associate Postal Address with Customer](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC7_Associate%20Postal%20Address%20with%20Customer.md)|
+| UC8 | [Register Service Provider](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC8_Register%20Service%20Provider.md)|
 | UC9 | [Indicate Daily Availability of Services](Use Cases/UC9_Indicate Daily Availability of Services)|
 | UC10 | [Affect providers of service requests](https://github.com/GabrielPelosi/Isep-Lapr2/blob/master/wiki/Use%20Cases/UC10_Affect%20providers%20of%20service%20requests.md)|
 | UC11 | [Decide on proposed period of service](Use Cases/UC11_Decide on proposed period of service)|
