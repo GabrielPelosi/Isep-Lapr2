@@ -145,7 +145,7 @@ For the identification of domain classes is used the list of categories of TP cl
 
 
 
-###**Rationale on identifying associations between classes**###
+### **Rationale on identifying associations between classes**###
 
 An association is a relationship between instances of objects that indicates a relevant connection that is worth remembering, or is derivable from the List of Common Associations:
 
